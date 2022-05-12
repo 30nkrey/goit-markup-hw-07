@@ -862,11 +862,11 @@ color: var(--primary-text-color);
 
 /*Section Форма*/
 
-.form {
+.form-send {
   margin-left: auto;
 }
 
-.form__title {
+.form-send__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -876,7 +876,7 @@ color: var(--primary-text-color);
   margin-bottom: 20px;
 }
 
-.form__submit-send {
+.form-send__submit-send {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -894,11 +894,11 @@ color: var(--primary-text-color);
   color: var(--background-color);
 }
 
-.form__send {
+.form-send__send {
   display: flex;
 }
 
-.form__input-send {
+.form-send__input-send {
   display: block;
   box-sizing: border-box;
   width: 358px;
@@ -910,12 +910,12 @@ color: var(--primary-text-color);
   background-color: transparent;
 }
 
-.form__submit-icon-send {
+.form-send__submit-icon-send {
   margin-left: 10px;
   margin-right: 8px;
 }
 
-.form__mail-send {
+.form-send__mail-send {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
