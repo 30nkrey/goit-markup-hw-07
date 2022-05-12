@@ -168,7 +168,7 @@ a {
 
 /* Почта и тел*/
 
-.nav__post {  
+.nav__contact {  
   display: flex;
   margin-left: auto;
   align-items: center;
@@ -181,7 +181,7 @@ a {
   text-decoration: none;
 }
  
- .nav__post >.nav__item+.nav__item {
+ .nav__contact >.nav__item+.nav__item {
   margin-left: 30px;
 }
 
