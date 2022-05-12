@@ -168,7 +168,7 @@ a {
 
 /* Почта и тел*/
 
-.nav__contact {  
+.contact {  
   display: flex;
   margin-left: auto;
   align-items: center;
@@ -181,11 +181,11 @@ a {
   text-decoration: none;
 }
  
- .nav__contact >.nav__item+.nav__item {
+ .contact >.contact__item-contact+.contact__item-contact {
   margin-left: 30px;
 }
 
-.nav__mail  {
+.contact__mail  {
   display: flex;
   align-items: center;
   padding-top: 32px;
@@ -194,24 +194,24 @@ a {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav__icon-post {
+.contact__icon-post {
   margin-right: 10px;
   fill: currentColor;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav__mail:hover,
-.nav__mail:focus {
+.contact__mail:hover,
+.contact__mail:focus {
   color: var(--accent-color);
 }
 
-.nav__tel:hover,
-.nav__tel:focus {
+.contact__tel:hover,
+.contact__tel:focus {
   color: var(--accent-color);
 }
 
-.nav__tel {
+.contact__tel {
   display: flex;
   align-items: center;
   padding-top: 32px;
