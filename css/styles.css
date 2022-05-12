@@ -77,20 +77,20 @@ ul {
 }
  
 
-.hr-toge {
+.header {
   border-bottom: 1px solid var(--border-hr-color);
-  z-index: 99;
+
 }
 
-.heade {
+.header__nav {
   display: flex;
 }
-.main-nav {
+.nav {
   display: flex;
   align-items: center;
 }
 
- .logo {
+ .nav__logo {
   font-family: Raleway;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -110,7 +110,7 @@ a {
  
 /*Навигация без логотипа*/
 
-.links { 
+.nav__links { 
   position: relative;
   display: flex;
   align-items: center;
@@ -134,7 +134,7 @@ a {
   bottom: 0;
 }
 
-.link-current {
+.nav__link-current {
   position: relative;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -142,33 +142,33 @@ a {
  
 }
 
-.links >.item {
+.nav__links >.nav__item {
   display: block;
 }
 
-.links .item:not(:last-child) {
+.nav__links .nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.clr {
+.nav__font {
   font-weight: 500;
   color: var(--second-text-color);
 }
 
-.links .link-current:hover,
-.links .link-current:focus {
+.nav__links .nav__link-current:hover,
+.nav__links .nav__link-current:focus {
   
   color: var(--accent-color);
 }
 
-.links .link:hover,
-.links .link:focus  {
+.nav__links .nav__link:hover,
+.nav__links .nav__link:focus  {
   color: var(--accent-color);
 }
 
 /* Почта и тел*/
 
-.post-tel {  
+.nav__post {  
   display: flex;
   margin-left: auto;
   align-items: center;
@@ -181,11 +181,11 @@ a {
   text-decoration: none;
 }
  
- .post-tel >.item+.item {
+ .nav__post >.nav__item+.nav__item {
   margin-left: 30px;
 }
 
-.mail  {
+.nav__mail  {
   display: flex;
   align-items: center;
   padding-top: 32px;
@@ -201,17 +201,17 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mail:hover,
-.mail:focus {
+.nav__mail:hover,
+.nav__mail:focus {
   color: var(--accent-color);
 }
 
-.tel:hover,
-.tel:focus {
+.nav__tel:hover,
+.nav__tel:focus {
   color: var(--accent-color);
 }
 
-.tel {
+.nav__tel {
   display: flex;
   align-items: center;
   padding-top: 32px;
