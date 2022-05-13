@@ -123,7 +123,7 @@ a {
   text-align: left; 
 }
 
-.link-current::after {
+.nav__link-current::after {
   position: absolute;
   content: "";
   display: block;
