@@ -468,7 +468,7 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 
 /* Section Наши сильные стороны*/
 
-.our-strong-transp {
+.advantage-transparent {
   position: absolute; 
   width: 1px; 
   height: 1px; 
@@ -481,7 +481,7 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   overflow: hidden; 
 }
 
-.thumb {
+.advantage__thumb {
   display: flex;
   height: 120px;
   justify-content: center;
@@ -498,7 +498,7 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   height: 70px;
 }
  
-.our-strong {
+.activities {
   margin-bottom: 50px;
   font-size: 36px;
   font-weight: 700;
@@ -547,11 +547,13 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.our-strong-ul {
+.advantage {
+  display: flex;
+  justify-content: center;
   padding-top: 0;
 }
 
-.our-strong-ul>.item-chem:not(:last-child) {
+.advantage>.advantage__item-chem:not(:last-child) {
   margin-right: 30px;
   
 }
@@ -563,12 +565,8 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   background-color: var(--background-color);
 }
 
-.job-f {
-  display: flex;
-  justify-content: center;
-}
 
-.job-f>.item-t+.item-t {
+.advantage>.item-t+.item-t {
   margin-left: 30px;
 }
 
