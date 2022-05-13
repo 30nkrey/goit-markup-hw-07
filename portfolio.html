@@ -23,7 +23,7 @@
        <div class="header__nav">
      <nav class="nav">
        
-      <a href="./index.html" class="nav__logo">Web<span>Studio</span>
+      <a href="./index.html" class="nav__logo">Web<span class="nav__logo-text">Studio</span>
       </a>
        <ul class="nav__links">
         <li class="nav__item"><a href="./index.html" class="nav__link nav__font">Студия</a></li>
@@ -53,26 +53,27 @@
   </header>
      <!--Section our-projeckts-->
     
-      <main class="our-projeckts">
+      <main class="projects">
         <section class="univer">
           <div class="container">
                      
-        <h1 class="projects-transp">Наши проекты</h1>
+        <h1 class="projects-transparent">Наши проекты</h1>
         <!--Section Filters-->
           
-            <ul class="button-all">
-              <li class="item-b"><button class="pointer btn vse" type="button">Все</button></li>
-              <li class="item-b"><button class="pointer btn web" type="button">Веб-сайты</button></li>
-              <li class="item-b"><button class="pointer btn pri" type="button">Приложения</button></li>
-              <li class="item-b"><button class="pointer btn dis" type="button">Дизайн</button></li>
-              <li class="item-b"><button class="pointer btn mar" type="button">Маркетинг</button></li>
+            <ul class="buttons">
+              <li class="buttons__projects-item"><button class="buttons__button" type="button"><span class="buttons__name">Все</span></button></li>
+              <li class="buttons__projects-item"><button class="buttons__button" type="button"><span class="buttons__name">Веб-сайты</span></button></li>
+              <li class="buttons__projects-item"><button class="buttons__button" type="button"><span class="buttons__name">Приложения</span></button></li>
+              <li class="buttons__projects-item"><button class="buttons__button" type="button"><span class="buttons__name">Дизайн</span></button></li>
+              <li class="buttons__projects-item"><button class="buttons__button" type="button"><span class="buttons__name">Маркетинг</span></button></li>
             </ul>
            
           
         <!--Section Projects-->
         
-          <ul class="job-c">
-           <li class="item-c">
+          <ul class="example">
+
+           <li class="example__item-card">
             
             <a class="cartka" href=""><img src="./images/pho1.jpg" width="370" alt="Вид"/>
             
@@ -231,7 +232,7 @@
       <div class="container footer__block">
     
         <div class="logo-address">
-            <a href="./index.html" class="logo-address__logo-footer">Web<span>Studio</span></a>
+            <a href="./index.html" class="logo-address__logo-footer">Web<span class="logo-address__logo-footer-text">Studio</span></a>
             <address class="logo-address__address">
               <ul class="logo-address__list logo-address__search">
                 <li class="logo-address__item-footer"><a href="Адрес" class="add logo-address__search">г. Киев, пр-т Леси Украинки, 26</a></li>
@@ -295,7 +296,8 @@
         <form>
           <div class="form-send__send">
           <input class="form-send__input-send form-send__mail-send" type="email" placeholder="E-mail"/>
-          <button type="submit" class="form-send__submit-send">Подписаться<svg class="form-send__submit-icon-send" width="24" height="24">
+          
+          <button type="submit" class="button-send"><span class="button-send__text">Подписаться</span><svg class="button-send__submit-icon-send" width="24" height="24">
             <use href="./images/symbol-defs (4).svg#icon-send"></use>
           </svg></button>
         </div>  

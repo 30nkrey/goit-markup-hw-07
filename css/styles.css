@@ -101,7 +101,7 @@ ul {
   text-decoration: none;
   color: var(--accent-color);
 }
-span {
+.nav__logo-text {
   color: var(--title-text-color);
 }
 a {
@@ -434,21 +434,15 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   text-transform: uppercase;
 }
 
-.our-projects {
+.projects {
   background-color: var(--background-color-card);
 }
 
-.zakaz {
+.order {
   display: inline-block;
   height: 50px;
   width: 200px;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  text-align: center;
-  font-family: inherit;
-  color: var(--background-color);
+  
   cursor: pointer;
   background-color: var(--accent-color);
   border: 0ch;
@@ -456,7 +450,17 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
 
-.zakaz:hover  {
+.order__text {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-family: inherit;
+  color: var(--background-color);
+}
+
+.order:hover  {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: var(--accent-color-second);
 }
@@ -651,7 +655,7 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 
 /*Section Наши проекты */
 
-.projects-transp {
+.projects-transparent {
   position: absolute; 
   width: 1px; 
   height: 1px; 
@@ -673,28 +677,22 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   color: var(--title-text-color);
 }
 
-.item-b:not(:last-child) {
+.buttons__projects-item:not(:last-child) {
   margin-right: 8px;
 }
 
-.button-all {
+.buttons {
 display: flex;
 justify-content: center;
 margin-bottom: 50px;
 }
 
-.pointer {
+/*.pointer {
   cursor: pointer;
-}
+}*/
 
-.btn {
-  display: block;
-  padding: 6px 22px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  text-align: center;
-  letter-spacing: 0.03em;
+.buttons__button {
+  
   border-radius: 4px;
   border: none;
   color: var(--second-text-color);
@@ -702,10 +700,21 @@ margin-bottom: 50px;
   transition-property: background-color, color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
-.btn:hover, 
-.btn:focus {
+.buttons__name {
+  display: block;
+  padding: 6px 22px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.buttons__button:hover, 
+.buttons__button:focus {
   color: var(--background-color);
   background-color: var(--accent-color);
   box-shadow: 0 4px 4px 0 #00000025;
@@ -713,11 +722,22 @@ margin-bottom: 50px;
 
 /*Section Projects with photo*/
 
-.job-c {
+.example {
   display: flex; 
   flex-wrap: wrap;
   margin: -15px;
  }
+
+ .example__item-card {
+  display: block;
+  width: 370px;
+  margin: 15px;
+}
+
+.example .cartka:hover {
+  box-shadow: 0 4px 4px 0 #00000025;
+
+}
 
  .cartka {
   display: block;
@@ -775,16 +795,9 @@ margin-bottom: 50px;
  opacity: 0.9; 
 
 }
-.job-c .cartka:hover {
-  box-shadow: 0 4px 4px 0 #00000025;
 
-}
 
-.item-c {
-  display: block;
-  width: 370px;
-  margin: 15px;
-}
+
 
 .special-name {
   font-size: 18px;
@@ -876,13 +889,11 @@ color: var(--primary-text-color);
   margin-bottom: 20px;
 }
 
-.form-send__submit-send {
+.button-send {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
+
   width: 200px;
   height: 50px;
   background: var(--accent-color);
@@ -892,6 +903,12 @@ color: var(--primary-text-color);
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--background-color);
+}
+
+.button-send__text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
 }
 
 .form-send__send {
@@ -910,7 +927,7 @@ color: var(--primary-text-color);
   background-color: transparent;
 }
 
-.form-send__submit-icon-send {
+.button-send__submit-icon-send {
   margin-left: 10px;
   margin-right: 8px;
 }
@@ -1038,7 +1055,7 @@ color: var(--primary-text-color);
   z-index: -1;
 }
 
-.logo-address__logo-footer > span {
+.logo-address__logo-footer > .logo-address__logo-footer-text {
   color: var(--background-color);
 }
 
