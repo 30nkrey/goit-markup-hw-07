@@ -168,8 +168,8 @@ a {
   color: var(--accent-color);
 }
 
-.nav__link:hover,
-.nav__link:focus  {
+.nav__link-activ:hover,
+.nav__link-activ:focus  {
   color: var(--accent-color);
 }
 
