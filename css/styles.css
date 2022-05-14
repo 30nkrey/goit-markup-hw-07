@@ -113,16 +113,21 @@ a {
 /*Навигация без логотипа*/
 
 .nav__links { 
+  
   position: relative;
   display: flex;
   align-items: center;
-  margin-left: 93px;
+ 
   padding-top: 32px;
   padding-bottom: 32px;
   font-size: 14px; 
   line-height: 1.17;
   letter-spacing: 0.02em;
   text-align: left;
+}
+
+.header__nav--nav__links {
+  margin-left: 93px;
 }
 
 .nav__item {
@@ -176,16 +181,19 @@ a {
 /* Почта и тел*/
 
 .contact {  
+  
   display: flex;
-  margin-left: auto;
   align-items: center;
-   
   font-size: 14px; 
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-align: left;
   text-decoration: none;
+}
+
+.header__nav--contact {
+  margin-left: auto;
 }
  
  .contact >.contact__item-contact+.contact__item-contact {
@@ -202,10 +210,14 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact__icon-post {
-  margin-right: 10px;
+  
   fill: currentColor;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact--contact__icon-post {
+  margin-right: 10px;
 }
 
 .contact__mail:hover,
