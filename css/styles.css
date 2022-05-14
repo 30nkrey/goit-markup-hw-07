@@ -101,9 +101,11 @@ ul {
   text-decoration: none;
   color: var(--accent-color);
 }
+
 .nav__logo-text {
   color: var(--title-text-color);
 }
+
 a {
   text-decoration: none;
 } 
@@ -121,7 +123,6 @@ a {
   line-height: 1.17;
   letter-spacing: 0.02em;
   text-align: left;
-
 }
 
 .nav__item {
@@ -138,7 +139,6 @@ a {
   border-radius: 2px;
   background-color: var(--accent-color);
   bottom: 0;
-  
 }
 
 .nav__link-current {
@@ -914,29 +914,29 @@ margin-bottom: 50px;
 
 /*Section Projects with photo*/
 
-.example {
+.grid {
   display: flex; 
   flex-wrap: wrap;
   margin: -15px;
  }
 
- .example__item-card {
+ .grid__item-card {
   display: block;
   width: 370px;
   margin: 15px;
 }
 
-.example .example__send-card:hover {
+.grid .grid__send-card:hover {
   box-shadow: 0 4px 4px 0 #00000025;
 
 }
 
- .example__send-card {
+ .grid__send-card {
   display: block;
   position: relative;
   }
 
-  .example__div {
+  .grid__div {
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 20px;
@@ -983,7 +983,7 @@ margin-bottom: 50px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.example__send-card:hover .actions {
+.grid__send-card:hover .actions {
  opacity: 0.9; 
 
 }
@@ -991,7 +991,7 @@ margin-bottom: 50px;
 
 
 
-.example__special-name {
+.grid__special-name {
   font-size: 18px;
   font-weight: 700;
   line-height: 2.0;
@@ -1002,7 +1002,7 @@ margin-bottom: 50px;
 
 
 
-.example__text-card {
+.grid__text-card {
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
