@@ -121,8 +121,12 @@ a {
   line-height: 1.17;
   letter-spacing: 0.02em;
   text-align: left;
+
+}
+
+.nav__item {
   font-weight: 500;
-   
+  color: var(--second-text-color);
 }
 
 .nav__link-current::after {
@@ -134,12 +138,18 @@ a {
   border-radius: 2px;
   background-color: var(--accent-color);
   bottom: 0;
+  
 }
 
 .nav__link-current {
   position: relative;
   padding-top: 32px;
   padding-bottom: 32px;
+  font-weight: 500;
+  color: var(--accent-color);
+}
+
+.nav__link {
   color: var(--second-text-color);
 }
 
