@@ -230,7 +230,7 @@ a {
 
 /* Section Главная*/
 
-.our-strong-form {
+.strong-form {
 font-weight: 700;
 font-size: 20px;
 line-height: 1.15;
@@ -340,12 +340,12 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   background-color: var(--accent-color-second);
 }
 
-.form-field {
+.form__form-field {
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-.form-lable {
+.form__form-lable {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -356,7 +356,7 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   margin-bottom: 4px;
 }
 
-.form-input {
+.form__form-input {
   display: block;
   position: relative;
   padding-left: 42px;
@@ -371,13 +371,13 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input:hover,
-.form-input:focus {
+.form__form-input:hover,
+.form__form-input:focus {
   border-color: var(--accent-color);
   outline-color: var(--accent-color);
 } 
 
-.form-input:hover + .nm {
+.form__form-input:hover + .nm {
  fill: var(--accent-color);
 }
 
@@ -391,15 +391,15 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-icon {
+.form__form-icon {
   position: relative;
 }
 
-.form-icon input {
+.form__form-icon input {
   padding-right: 2.5em;
 }
 
-.text-field_aicon {
+.form__text-field {
   position: relative;
   margin-top: 4px;
   
