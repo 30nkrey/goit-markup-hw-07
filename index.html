@@ -71,18 +71,18 @@
           
           <div class="modal">
             <div>
-              <div class="modal-form">
-              <strong class="strong-form">Оставьте свои данные, мы вам перезвоним</strong>
+              <div class="modal__modal-form">
+              <strong class="modal__strong-form">Оставьте свои данные, мы вам перезвоним</strong>
               
-              <form class="form">
+              <form class="modal__form">
           
-              <div class="form__form-field">
-                <label class="form__form-lable" for="name">Имя</label>
-                <div class="form__form-icon">
-                  <span class="form__text-field">  
-                <input class="form__form-input" type="text" name="name" id="name"/>          
+              <div class="modal__form-field">
+                <label class="modal__form-lable" for="name">Имя</label>
+                <div class="modal__form-icon">
+                  <span class="modal__text-field">  
+                <input class="modal__form-input" type="text" name="name" id="name"/>          
               
-                <svg class="form__svg" width="18" height="18">
+                <svg class="modal__svg" width="18" height="18">
                     <use href="./images/symbol-defs (4).svg#person-black"></use>
                   </svg>
                 </span>
@@ -91,13 +91,13 @@
                 
               </div> 
           
-              <div class="form__form-field">
-                <label class="form__form-lable" for="tel">Телефон</label>
-                <div class="form__form-icon">
-                  <span class="form__text-field">  
-                <input class="form__form-input" type="tel" name="tel" id="tel"/>
+              <div class="modal__form-field">
+                <label class="modal__form-lable" for="tel">Телефон</label>
+                <div class="modal__form-icon">
+                  <span class="modal__text-field">  
+                <input class="modal__form-input" type="tel" name="tel" id="tel"/>
                 
-                <svg class="form__svg" width="18" height="18">
+                <svg class="modal__svg" width="18" height="18">
                   <use href="./images/symbol-defs (4).svg#phone-black"></use>
                 </svg>
               </span> 
@@ -105,13 +105,13 @@
               </div>
               </div>
           
-              <div class="form__form-field">
-                <label class="form__form-lable" for="mail">Почта</label>
-                <div class="form__form-icon">
-                  <span class="form__text-field"> 
-                <input class="form__form-input" type="email" name="mail" id="mail"/>
+              <div class="modal__form-field">
+                <label class="modal__form-lable" for="mail">Почта</label>
+                <div class="modal__form-icon">
+                  <span class="modal__text-field"> 
+                <input class="modal__form-input" type="email" name="mail" id="mail"/>
                 
-                <svg class="form__svg" width="18" height="18">
+                <svg class="modal__svg" width="18" height="18">
                   <use href="./images/symbol-defs (4).svg#email-black"></use>
                 </svg>
                </span>
@@ -119,33 +119,35 @@
               </div>
                </div>
 
-              <div class="form__form-coment">
-              <label class="form__form-lable">Комментарий</label>
-              <textarea class="form__form-place" placeholder="Введите текст">Введите текст</textarea>
+              <div class="modal__form-coment">
+              <label class="modal__form-lable">Комментарий</label>
+              <textarea class="modal__form-place" placeholder="Введите текст">Введите текст</textarea>
               </div>
             </form>
             </div> 
             
           
           
-             <div class="form__service"> 
-               <label class="form__service-check">
-                 <input class="form__check-input" type="checkbox"/>
-                  <span class="form__icon-check"></span class="form__accept">Соглашаюсь с рассылкой и принимаю<span class="form__span-form">Условия договора</span>
+             <div class="modal__service"> 
+               <label class="modal__service-check">
+                 <input class="modal__check-input" type="checkbox"/>
+                  <span class="modal__icon-check"></span class="modal__accept">
+                    Соглашаюсь с рассылкой и принимаю<span class="modal__span-form">
+                      Условия договора</span>
               
               </label>
               </div>
             </div>         
             
             
-              <button class="form__form-button" type="submit">
-                <span class="form__form-button-accept">Отправить</span></button>
+              <button class="modal__form-button" type="submit">
+                <span class="modal__form-button-accept">Отправить</span></button>
                                     
                 
           
           
-            <button class="pos" data-modal-close>
-              <svg class="icon-close" width="18" height="18" >
+            <button class="modal__close" data-modal-close>
+              <svg class="modal__icon-close" width="18" height="18" >
                 <use href="./images/symbol-defs (3).svg#black">
                   </use>
                 
@@ -174,8 +176,8 @@
                 </use>
               </svg>
             </div> 
-              <h3 class="our-strong-h">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
-              <p class="our-text-p">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+              <h3 class="advantage__our-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+              <p class="advantage__our-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
             </li>
               
               <li class="advantage__item-chem">
@@ -186,8 +188,8 @@
                     </use>
                   </svg>
                 </div>
-              <h3 class="our-strong-h">ПУНКТУАЛЬНОСТЬ</h3>
-              <p class="our-text-p">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+              <h3 class="advantage__our-title">ПУНКТУАЛЬНОСТЬ</h3>
+              <p class="advantage__our-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
             </li>
             <li class="advantage__item-chem">
               <div class="advantage__thumb">
@@ -197,8 +199,8 @@
                   </use>
                 </svg>
               </div>
-              <h3 class="our-strong-h">ПЛАНИРОВАНИЕ</h3>  
-              <p class="our-text-p">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+              <h3 class="advantage__our-title">ПЛАНИРОВАНИЕ</h3>  
+              <p class="advantage__our-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
             </li>
             <li class="advantage__item-chem">
               <div class="advantage__thumb">
@@ -208,8 +210,8 @@
                   </use>
                 </svg>
               </div>
-              <h3 class="our-strong-h">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
-              <p class="our-text-p">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+              <h3 class="advantage__our-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+              <p class="advantage__our-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
           </ul>
         
