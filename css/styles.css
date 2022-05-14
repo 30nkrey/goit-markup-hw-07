@@ -748,13 +748,17 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   /*Section Team*/
 
 .team__text { 
-  margin-top: 10px;
+  
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--primary-text-color);  
-}  
+}
+
+.team--team__text {
+  margin-top: 10px;
+}
 
 .our-team {
   margin-bottom: 50px;
@@ -928,7 +932,6 @@ margin-bottom: 50px;
 }
 
 .buttons__button {
-  
   border-radius: 4px;
   border: none;
   color: var(--second-text-color);
@@ -1029,11 +1032,7 @@ margin-bottom: 50px;
 
 .grid__send-card:hover .actions {
  opacity: 0.9; 
-
 }
-
-
-
 
 .grid__special-name {
   font-size: 18px;
@@ -1044,15 +1043,18 @@ margin-bottom: 50px;
   color: var(--title-text-color);
 }
 
-
-
 .grid__text-card {
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.03em;
-text-align: left;
-color: var(--primary-text-color);
-margin-top: 4px;
+   
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--primary-text-color);
+
+}
+
+.grid--grid__text-card {
+  margin-top: 4px;
 }
 
 
@@ -1065,12 +1067,16 @@ margin-top: 4px;
 }
 
 .form-send__title {
+  
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--background-color);
+}
+
+.form-send--form-send__title {
   margin-bottom: 20px;
 }
 
@@ -1078,7 +1084,6 @@ margin-top: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: 200px;
   height: 50px;
   background: var(--accent-color);
@@ -1101,15 +1106,19 @@ margin-top: 4px;
 }
 
 .form-send__input-send {
+  
   display: block;
   box-sizing: border-box;
   width: 358px;
   height: 50px;
-  margin-right: 12px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
+}
+
+.form-send--form-send__input-send {
+  margin-right: 12px;
 }
 
 .button-send__submit-icon-send {
@@ -1137,13 +1146,13 @@ margin-top: 4px;
 }
 
 .social__title {
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--background-color);
-  margin-bottom: 20px;
 }
 
 .social__site {
@@ -1165,11 +1174,15 @@ margin-top: 4px;
 }
 
 .social__icon {
-  margin: 12px;
+  
   fill: var(--background-color);
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social--social__icon {
+  margin: 12px;
 }
 
 .social__item-link:hover {
@@ -1224,8 +1237,12 @@ margin-top: 4px;
 }
 
 .logo-address__address {
-  margin-top: 20px;
+  
   text-decoration: none;
+}
+
+.logo-address--logo-address__address {
+  margin-top: 20px;
 }
 
 .logo-address__list .logo-address__search:hover,
