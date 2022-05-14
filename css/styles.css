@@ -493,7 +493,6 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   display: inline-block;
   height: 50px;
   width: 200px;
-  
   cursor: pointer;
   background-color: var(--accent-color);
   border: 0ch;
@@ -558,6 +557,7 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 }
 
 .modal__close {
+
   position: fixed;
   right: 0;
   top: 0;
@@ -567,13 +567,16 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 50%;
   padding-top: 6px;
   padding-bottom: 6px;
-  margin-right: 8px;
-  margin-top: 8px;
   background: var(--background-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal--modal__close {
+  margin-right: 8px;
+  margin-top: 8px;
 }
 
 .modal__icon-close {
@@ -616,12 +619,16 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 }
 
 .advantage__thumb {
+  
   display: flex;
   height: 120px;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
   background-color: var(--background-color-btn);
+}
+
+.advantage--advantage__thumb {
+  margin-bottom: 30px;
 }
 
 .antenna,
@@ -633,7 +640,7 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 }
 
 .advantage__our-title {
-  margin-bottom: 10px;
+  
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -641,6 +648,10 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   text-align: left;
   color: var(--second-text-color);
   text-transform: uppercase;
+}
+
+.advantage--advantage__thumb {
+  margin-bottom: 10px;
 }
 
 .advantage__our-text {
@@ -666,13 +677,17 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   margin-left: 30px;
 }
 
-.our-text { 
-  margin-top: 10px;
+.advantage__our-text { 
+  
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--primary-text-color);
+}
+
+.advantage--advantage__our-text {
+  margin-top: 10px;
 }
 
 /*Section Чем занимаются*/
