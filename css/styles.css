@@ -240,7 +240,7 @@ margin-bottom: 12px;
 color: var(--second-text-color);
 }
 
-.usl {
+.form__service {
   position: relative;
   display: block;
   height: 24px;
@@ -252,13 +252,13 @@ color: var(--second-text-color);
   padding-top: 20px;
 }
 
-.check {
+.form__service-check {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.icon-check {
+.form__icon-check {
   display: inline-block;
   width: 16px; 
   height: 15px;
@@ -270,14 +270,14 @@ color: var(--second-text-color);
   
 }
 
-.check_input {
+.form__check-input {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
 }   
   
   
-.check_input:checked + .icon-check {
+.form__check-input:checked + .form__icon-check {
   border-color: var(--accent-color);
   background-image: url(../images/icon\ check.svg);
   background-size: contain;
@@ -285,7 +285,13 @@ color: var(--second-text-color);
 
 }
 
-.span-form {
+.form__accept {
+  color: var(--title-text-color);
+  text-decoration: underline;
+  padding-left: 4px;
+}
+
+.form__span-form {
   color: var(--accent-color);
   text-decoration: underline;
   padding-left: 4px;
@@ -300,7 +306,7 @@ width: 342px;
   position: relative;
 }
 
-.form-place-hol {
+.form__form-place {
 resize: none;
 display: inline-block;
 width: 448px;
@@ -315,13 +321,13 @@ padding: 12px 16px;
 border: 1px solid rgba(33, 33, 33, 0.2);
 }
 
-.form-button {
+.form__form-button {
   width: 200px;
   height: 50px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-/* identical to box height, or 188% */
+
   text-align: center;
   letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -335,8 +341,17 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-button:hover,
-.form-button:focus {
+.form__form-button-accept {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.form__form-button:hover,
+.form__form-button:focus {
   background-color: var(--accent-color-second);
 }
 
@@ -377,11 +392,11 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   outline-color: var(--accent-color);
 } 
 
-.form__form-input:hover + .nm {
+.form__form-input:hover + .form__svg {
  fill: var(--accent-color);
 }
 
-.nm {
+.form__svg {
   position: absolute;
   display: block;
   top: 11px;
