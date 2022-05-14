@@ -120,7 +120,9 @@ a {
   font-size: 14px; 
   line-height: 1.17;
   letter-spacing: 0.02em;
-  text-align: left; 
+  text-align: left;
+  font-weight: 500;
+  color: var(--second-text-color); 
 }
 
 .nav__link-current::after {
@@ -139,8 +141,8 @@ a {
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--accent-color);
- 
 }
+
 
 .nav__links >.nav__item {
   display: block;
@@ -150,19 +152,14 @@ a {
   margin-right: 50px;
 }
 
-.nav__font {
-  font-weight: 500;
-  color: var(--second-text-color);
-}
 
-.nav__links .nav__link-current:hover,
-.nav__links .nav__link-current:focus {
-  
+.nav__link-current-activ:hover,
+.nav__link-current-activ:focus {
   color: var(--accent-color);
 }
 
-.nav__links .nav__link:hover,
-.nav__links .nav__link:focus  {
+.nav__link:hover,
+.nav__link:focus  {
   color: var(--accent-color);
 }
 
