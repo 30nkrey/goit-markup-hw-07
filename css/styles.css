@@ -163,13 +163,13 @@ a {
 }
 
 
-.nav__link-current-activ:hover,
-.nav__link-current-activ:focus {
+.nav__link-current--activ:hover,
+.nav__link-current--activ:focus {
   color: var(--accent-color);
 }
 
-.nav__link-activ:hover,
-.nav__link-activ:focus  {
+.nav__link--activ:hover,
+.nav__link--activ:focus  {
   color: var(--accent-color);
 }
 
