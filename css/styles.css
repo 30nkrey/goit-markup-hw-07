@@ -1245,11 +1245,11 @@ margin-bottom: 50px;
   text-align: left;
 }
 
-.add {
+.logo-address__search--add {
   color: var(--background-color);
 }
 
-.opacity {
+.logo-address__search--opacity {
   color: var(--color-opacity);
 }
 
