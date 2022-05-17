@@ -17,9 +17,7 @@
 /* цвет фона при трансформации rgba(33, 150, 243, 0.9)*/
 /* цвет при оверлей #c4c4c4*/ 
 
-@import "./utils/variabls";
-@import "./base/normalize";
-@import "./components/header";
+
 
 
 :root {
