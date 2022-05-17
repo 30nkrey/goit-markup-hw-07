@@ -612,7 +612,6 @@ background-color: rgba(0, 0, 0, 0.2);
 .modal__close:focus {
   opacity: 1; 
 }
-
  
 
 /* Section Наши сильные стороны*/
@@ -760,8 +759,12 @@ background-color: rgba(0, 0, 0, 0.2);
   margin-top: 10px;
 }
 
-.our-team {
+.our-team--title {
   margin-bottom: 50px;
+}
+
+.our-team {
+  
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
