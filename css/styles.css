@@ -617,7 +617,7 @@ background-color: rgba(0, 0, 0, 0.2);
 
 /* Section Наши сильные стороны*/
 
-.advantage-transparent {
+.projeckts-transparent {
   position: absolute; 
   width: 1px; 
   height: 1px; 
@@ -643,10 +643,7 @@ background-color: rgba(0, 0, 0, 0.2);
   margin-bottom: 30px;
 }
 
-.antenna,
-.clock,
-.diagram,
-.astronaut {
+.advantage__icon-chem {
   width: 70px;
   height: 70px;
 }
@@ -687,15 +684,6 @@ background-color: rgba(0, 0, 0, 0.2);
 
 .advantage>.team__item-t+.team__item-t {
   margin-left: 30px;
-}
-
-.advantage__our-text { 
-  
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: var(--primary-text-color);
 }
 
 .advantage--advantage__our-text {
@@ -987,7 +975,10 @@ margin-bottom: 50px;
 
 .grid .grid__send-card:hover {
   box-shadow: 0 4px 4px 0 #00000025;
+}
 
+.grid__card {
+  position: relative;
 }
 
  .grid__send-card {
@@ -995,9 +986,7 @@ margin-bottom: 50px;
   position: relative;
   }
 
-  .grid__image {
-    position: relative;
-  }
+
 
   .grid__div {
   padding-left: 24px;
@@ -1084,7 +1073,6 @@ margin-bottom: 50px;
 }
 
 .form-send__title {
-  
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -1123,7 +1111,6 @@ margin-bottom: 50px;
 }
 
 .form-send__input-send {
-  
   display: block;
   box-sizing: border-box;
   width: 358px;
@@ -1147,7 +1134,6 @@ margin-bottom: 50px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
-  /* identical to box height, or 125% */
   align-items: center;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
