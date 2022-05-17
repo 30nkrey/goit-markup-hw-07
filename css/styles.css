@@ -992,6 +992,10 @@ margin-bottom: 50px;
   position: relative;
   }
 
+  .grid__image {
+    position: relative;
+  }
+
   .grid__div {
   padding-left: 24px;
   padding-right: 24px;
@@ -1013,7 +1017,7 @@ margin-bottom: 50px;
 }
 
 .actions__over {
-  position: relative;
+  position: absolute;
   display: block; 
   top: 0;
   left: 0;
