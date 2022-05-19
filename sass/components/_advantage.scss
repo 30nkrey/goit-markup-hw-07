@@ -46,16 +46,17 @@
     &>.team__item-t+.team__item-t {
       margin-left: 30px;
     }
-  }
-  .advantage--advantage__thumb {
-    margin-bottom: 10px;
+
+    &--advantage__thumb {
+      margin-bottom: 30px;
+    }
+
+    &--advantage__our-text {
+      margin-top: 10px;
+    }
+    
   }
 
-  .advantage--advantage__thumb {
-    margin-bottom: 30px;
-  }
-  
-  .advantage--advantage__our-text {
-    margin-top: 10px;
-  }
+
+
   

@@ -1,61 +1,60 @@
 
-.contact {  
-  
+.advantage {
     display: flex;
-    align-items: center;
-    font-size: 14px; 
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-align: left;
-    text-decoration: none;
+    justify-content: center;
+    padding-top: 0;
 
-    & >&__item-contact+&__item-contact {
+    &__our-title {
+  
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.14;
+      letter-spacing: 0.03em;
+      text-align: left;
+      color: var(--second-text-color);
+      text-transform: uppercase;
+    }
+
+
+
+    &__our-text {
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+      text-align: left;
+      color: var(--primary-text-color);
+    }
+
+    &__icon-chem {
+      width: 70px;
+      height: 70px;
+    }
+
+    &__thumb {
+  
+      display: flex;
+      height: 120px;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--background-color-btn);
+    }
+
+    &>&__item-chem:not(:last-child) {
+      margin-right: 30px;
+      
+    }
+
+    &>.team__item-t+.team__item-t {
       margin-left: 30px;
     }
-    &__mail  {
-      display: flex;
-      align-items: center;
-      padding-top: 32px;
-      padding-bottom: 32px;
-      color: var(--primary-text-color);
-      transition-duration: 250ms;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
 
-    &__icon-post {
-  
-      fill: currentColor;
-      transition-duration: 250ms;
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    &__mail:hover,
-    &__mail:focus {
-      color: var(--accent-color);
-    }
-
-    &__tel:hover,
-    &__tel:focus {
-  color: var(--accent-color);
-}
-
-    &__tel {
-  display: flex;
-  align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  color: var(--primary-text-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-&--contact__icon-post {
-  margin-right: 10px;
-}
-
-& {
-  margin-left: auto;
-}
-
+    &--advantage__thumb {
+        margin-bottom: 30px;
+      }
+      &--advantage__our-text {
+        margin-top: 10px;
+      }
   }
+ 
+
+  
