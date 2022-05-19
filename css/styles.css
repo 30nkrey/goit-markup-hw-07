@@ -196,9 +196,7 @@ a {
   text-decoration: none;
 }
 
-.header__nav--contact {
-  margin-left: auto;
-}
+
  
  .contact >.contact__item-contact+.contact__item-contact {
   margin-left: 30px;
@@ -245,6 +243,7 @@ a {
 }
 
 /* Section Главная*/
+
 
 .modal__strong-form {
   
@@ -493,9 +492,6 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   text-transform: uppercase;
 }
 
-.projects {
-  background-color: var(--background-color-card);
-}
 
 .order {
   display: inline-block;
@@ -569,50 +565,7 @@ background-color: rgba(0, 0, 0, 0.2);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__close {
 
-  position: fixed;
-  right: 0;
-  top: 0;
-  display: block;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  background: var(--background-color);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal--modal__close {
-  margin-right: 8px;
-  margin-top: 8px;
-}
-
-.modal__icon-close {
-  align-items: center;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal__icon-close:hover,
-.modal__icon-close:focus {
-  fill: var(--accent-color);
-}
-
-.modal__close:hover,
-.modal__close:focus.modal {
-  opacity: 0;
-}
-
-.modal__close:hover,
-.modal__close:focus {
-  opacity: 1; 
-}
  
 
 /* Section Наши сильные стороны*/
@@ -923,6 +876,7 @@ background-color: rgba(0, 0, 0, 0.2);
   letter-spacing: 0.06em;
   text-align: center;
   color: var(--title-text-color);
+  background-color: var(--background-color-card);
 }
 
 .buttons__projects-item:not(:last-child) {

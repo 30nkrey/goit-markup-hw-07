@@ -1,4 +1,16 @@
 .header {
     border-bottom: 1px solid var(--border-hr-color);
   
+    &__nav {
+      display: flex;
+    }
+    &__nav--nav__links {
+      margin-left: 93px;
+    }
+
+    &__nav--contact {
+      margin-left: auto;
+    }
   }
+ 
+  
