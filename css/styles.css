@@ -195,7 +195,9 @@ a {
   text-align: left;
   text-decoration: none;
 }
-
+.contact {
+  margin-left: auto;
+}
 
  
  .contact >.contact__item-contact+.contact__item-contact {
