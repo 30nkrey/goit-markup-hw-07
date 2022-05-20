@@ -247,6 +247,20 @@ a {
 /* Section Главная*/
 
 
+.modal {
+  position: absolute;
+  padding: 40px;
+  width: 528px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--background-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .modal__strong-form {
   
   font-weight: 700;
@@ -457,6 +471,51 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   margin-top: 4px;
   
 }
+.modal__close {
+
+  position: fixed;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background: var(--background-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal__close {
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.modal__icon-close {
+  align-items: center;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal__icon-close:hover,
+.modal__icon-close:focus {
+  fill: var(--accent-color);
+}
+
+.modal__close:hover,
+.modal__close:focus.modal {
+  opacity: 0;
+}
+
+.modal__close:hover,
+.modal__close:focus {
+  opacity: 1; 
+}
+
 
 /*Section Hero*/
 
@@ -553,19 +612,7 @@ background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
 }
 
-.modal {
-  position: absolute;
-  padding: 40px;
-  width: 528px;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background-color: var(--background-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  transition-duration: 500ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 
 
  
@@ -1065,7 +1112,9 @@ margin-bottom: 50px;
   line-height: 1.88;
 }
 
-
+.form-send__send {
+  display: flex;
+}
 
 .form-send__input-send {
   display: block;
