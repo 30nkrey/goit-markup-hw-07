@@ -868,7 +868,7 @@ background-color: rgba(0, 0, 0, 0.2);
   overflow: hidden; 
 }
 
-.projects {
+.our-projects {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
@@ -943,6 +943,16 @@ margin-bottom: 50px;
   position: relative;
   }
 
+  .grid__div {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    border: 1px solid var(--color-bgd-card) ;
+    border-top: none;
+    }
+
   .grid_card-name {
     font-size: 18px;
     font-weight: 700;
@@ -962,16 +972,10 @@ margin-bottom: 50px;
     color: var(--primary-text-color);
   
   }
+    .grid__send-card:hover .actions {
+        opacity: 0.9; 
+      }
 
-  .grid__div {
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: left;
-  border: 1px solid var(--color-bgd-card) ;
-  border-top: none;
-  }
 
   .grid--grid__text-card {
     margin-top: 4px;
@@ -988,7 +992,7 @@ margin-bottom: 50px;
 }
 
 .actions__over {
-  position: absolute;
+  position: relative;
   display: block; 
   top: 0;
   left: 0;
